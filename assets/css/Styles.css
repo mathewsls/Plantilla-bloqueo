@@ -66,3 +66,16 @@
 .texto {
     font-size: 9px;
 }
+
+.TituloPlanes {
+    margin-top: 10px;
+    max-width: 300px;
+    max-height: 40px;
+    text-align: center;
+    color: #57585a;
+    background-color: #e7e5e5;
+    margin-bottom: 0px;
+    font-size: 10px;
+    padding: 1px;
+    text-transform: uppercase;
+}
