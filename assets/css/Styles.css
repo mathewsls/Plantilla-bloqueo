@@ -1,0 +1,26 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+
+    display: grid;
+    grid-template-rows: 200px;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: #57585a;
+    border: #e7e5e5;
+    border-style: solid;
+    margin-top: 0%;
+
+
+}
+.TituloCotizacion {
+    max-width: 300px;
+    max-height: 40px;
+    text-align: center;
+    color: #57585a;
+    background-color: #e7e5e5;
+    margin-left: auto;
+    margin-bottom: 0px;
+    font-size: 10px;
+    padding: 1px;
+}
