@@ -1,11 +1,16 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
+.logo img {
+    height: 98%;
+    width: 285px;
+    margin-left: auto;
+}
 .container {
-
+    
     display: grid;
-    grid-template-rows: 260px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 225px;
+    grid-template-columns: 250px 1fr;
     color: #57585a;
     border: #e7e5e5;
     border-style: solid;
@@ -27,6 +32,7 @@
 }
 
 .seccion ul {
+    margin: 5px;
     display: grid;
     list-style-type: none;
     grid-template-columns: repeat(8, 1fr);
