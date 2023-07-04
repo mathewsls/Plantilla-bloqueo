@@ -36,7 +36,13 @@
     
 }
 
-
+.titulo {
+     grid-column: 1/5;
+    
+}
+.titulo1 {
+    grid-column: 5/9;
+}
 
 .seccion li {
     text-align: center;
