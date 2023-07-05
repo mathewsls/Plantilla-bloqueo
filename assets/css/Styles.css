@@ -7,6 +7,11 @@
     width: 100%;
     margin: auto;
 }
+.Link {
+    text-decoration: solid;
+    font-size: 15px;
+}
+
 .container2 {
     
     display: grid;
@@ -137,7 +142,7 @@
 }
 .Titulo {
     max-width: 300px;
-    max-height: 40px;
+    max-height: 20px;
     text-align: center;
     color: #57585a;
     background-color: #e7e5e5;
@@ -147,4 +152,8 @@
     margin-right: -2%;
     text-transform: uppercase;
     width: 100%;
+}
+
+.precio {
+    margin-right:  50px;
 }
