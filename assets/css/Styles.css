@@ -2,19 +2,19 @@
     font-family: 'Roboto', sans-serif;
 }
 .logo img {
-    height: 98%;
-    width: 285px;
-    margin-left: auto;
+    height: 100%;
+    width: 100%;
+    margin: auto;
 }
 .container {
     
     display: grid;
-    grid-template-rows: 225px;
-    grid-template-columns: 250px 1fr;
+    grid-template-rows: 200px;
+    grid-template-columns: 30% 70%;
     color: #57585a;
     border: #e7e5e5;
     border-style: solid;
-    margin-top: 0%;
+    margin: 0;
     
 
 
@@ -53,16 +53,13 @@
 .seccion li {
     text-align: center;
     background-color: #e7e5e5;
-    height: 50px;
-    padding: 0;
+    height: 40px;
 }
 
 .titulo {
     font-size: 15px;
     font-weight: bold;
-    margin: auto;
     text-align: center;
-
 }
 
 .texto {
@@ -94,7 +91,7 @@
 }
 
 .seccion li span {
-
+    margin: auto;
     text-transform: uppercase;
 }
  
