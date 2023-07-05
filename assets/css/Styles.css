@@ -92,6 +92,7 @@
     border-style: solid;
     font-weight: 300;
     margin: 0px 20px 20px 20px;
+    width: 100%;
 }
 .Descripcion p {
     text-align: left;
@@ -129,3 +130,21 @@
     margin-top: 100px;
 }
 
+.TituloObservaciones {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+}
+.Titulo {
+    max-width: 300px;
+    max-height: 40px;
+    text-align: center;
+    color: #57585a;
+    background-color: #e7e5e5;
+    margin-bottom: 0px;
+    font-size: 10px;
+    margin-left: 2%;
+    margin-right: -2%;
+    text-transform: uppercase;
+    width: 100%;
+}
