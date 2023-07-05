@@ -7,7 +7,7 @@
     width: 100%;
     margin: auto;
 }
-.container {
+.container2 {
     
     display: grid;
     grid-template-rows: 200px;
@@ -16,6 +16,8 @@
     border: #e7e5e5;
     border-style: solid;
     font-weight: 300;
+    margin-left: 10%;
+    margin-right: 10%;
     
 
 
@@ -26,7 +28,8 @@
     text-align: center;
     color: #57585a;
     background-color: #e7e5e5;
-    margin-left: 71.5%;
+    margin-left: auto;
+    margin-right: 10%;
     margin-bottom: 0px;
     font-size: 10px;
     padding: 1px;
@@ -125,3 +128,4 @@
 .medio  {
     margin-top: 100px;
 }
+
