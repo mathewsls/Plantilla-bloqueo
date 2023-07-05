@@ -1,5 +1,6 @@
 * {
     font-family: 'Roboto', sans-serif;
+   
 }
 .logo img {
     height: 100%;
@@ -14,6 +15,7 @@
     color: #57585a;
     border: #e7e5e5;
     border-style: solid;
+    font-weight: 300;
     
 
 
@@ -67,6 +69,7 @@
 }
 
 .TituloPlanes {
+    
     margin-top: 10px;
     max-width: 300px;
     max-height: 40px;
@@ -77,11 +80,13 @@
     font-size: 10px;
     padding: 1px;
     text-transform: uppercase;
+
 }
 
 .Descripcion {
     border: #e7e5e5;
     border-style: solid;
+    font-weight: 300;
 }
 .Descripcion p {
     text-align: left;
@@ -96,5 +101,8 @@
 .viva-logo img {
     width: 100%;
     height: 100%;
+}
+.subtitle {
+    font-weight: bold;
 }
  
