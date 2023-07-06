@@ -21,8 +21,6 @@
     border: #e7e5e5;
     border-style: solid;
     font-weight: 300;
-    margin-left: 10%;
-    margin-right: 10%;
     
 
 
@@ -34,7 +32,7 @@
     color: #57585a;
     background-color: #e7e5e5;
     margin-left: auto;
-    margin-right: 10%;
+    margin-top: 10px;
     margin-bottom: 0px;
     font-size: 10px;
     padding: 1px;
@@ -106,22 +104,22 @@
     font-size: 10px;
     padding: 1px;
     text-transform: uppercase;
-    margin-left: 1.5%;
 
 }
 
 .Descripcion {
     border: #e7e5e5;
     border-style: solid;
-    font-weight: 300;
-    margin: 0px 20px 20px 20px;
-    width: 100%;
+    width: 102%;
+    
+   
 }
 .Descripcion p {
     text-align: left;
     font-size: 15px;
-    margin: auto;
-    padding: 20px;
+    font-weight: 300;
+    
+    padding: 20px 20px 20px 100px;
 }
 
 .seccion li span {
@@ -141,6 +139,9 @@
     border-collapse: separate;
     border-spacing: 2px;
     margin-top: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
 }
 
 .logo2 {
@@ -166,12 +167,16 @@
     background-color: #e7e5e5;
     margin-bottom: 0px;
     font-size: 10px;
-    margin-left: 2%;
+    
     margin-right: -2%;
     text-transform: uppercase;
     width: 100%;
 }
 
 .precio {
-    margin-right:  50px;
+   margin-left: 50px;
+}
+.contenedor {
+    margin: auto;
+    max-width: 1000px;
 }
