@@ -50,13 +50,31 @@
 
     
 }
-
+.seccion-2 ul {
+    margin: 5px;
+    display: grid;
+    list-style-type: none;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(3 , 1fr);
+    column-gap: 5px;
+}
+.seccion-2 li {
+    margin-top: 5px;
+    text-align: center;
+    background-color: #e7e5e5;
+    height: 60px;
+}
 .item1 {
      grid-column: 1/5;
     
 }
 .item2 {
     grid-column: 5/9;
+}
+.item3 {
+    grid-column: 1/9;
+    grid-row: -1/2;
+    padding: 50px;
 }
 
 .seccion li {
